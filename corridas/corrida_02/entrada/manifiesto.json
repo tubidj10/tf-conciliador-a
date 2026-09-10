@@ -1,0 +1,50 @@
+{
+  "corrida": "2026-08-25",
+  "mensaje": "Procesá las facturas nuevas de esta semana.",
+  "facturas_en_carpeta": [
+    {
+      "archivo": "F-BDS-18877.pdf",
+      "proveedor": "Bebidas del Sur SRL"
+    },
+    {
+      "archivo": "F-BDS-18880.pdf",
+      "proveedor": "Bebidas del Sur SRL"
+    },
+    {
+      "archivo": "F-CRC-07731.pdf",
+      "proveedor": "Cervecería Río Claro SA"
+    },
+    {
+      "archivo": "F-CRC-07735.pdf",
+      "proveedor": "Cervecería Río Claro SA"
+    },
+    {
+      "archivo": "F-CRC-07736.pdf",
+      "proveedor": "Cervecería Río Claro SA"
+    },
+    {
+      "archivo": "F-GP-31177.pdf",
+      "proveedor": "Gaseosas Pampa SA"
+    },
+    {
+      "archivo": "F-GP-31180.pdf",
+      "proveedor": "Gaseosas Pampa SA"
+    },
+    {
+      "archivo": "F-GP-31184.pdf",
+      "proveedor": "Gaseosas Pampa SA"
+    },
+    {
+      "archivo": "F-JDV-00930.pdf",
+      "proveedor": "Jugos del Valle SRL"
+    },
+    {
+      "archivo": "F-JDV-00933.pdf",
+      "proveedor": "Jugos del Valle SRL"
+    },
+    {
+      "archivo": "F-TL-02219.pdf",
+      "proveedor": "Transporte Litoral"
+    }
+  ]
+}

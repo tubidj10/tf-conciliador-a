@@ -1,0 +1,75 @@
+{
+  "corrida": "2026-08-25",
+  "facturas_procesadas": 11,
+  "resultado": {
+    "CONCILIADA": 8,
+    "CON_DIFERENCIAS": 2,
+    "SIN_OC": 1
+  },
+  "detalle": [
+    {
+      "comprobante": "A-0002-00031177",
+      "proveedor": "Gaseosas Pampa SA",
+      "cuit": "30-70555444-1",
+      "oc": "OC-2026-0534",
+      "asociacion": "por_numero",
+      "clasificacion": "CON_DIFERENCIAS",
+      "total_factura": 1372500.0,
+      "total_oc": 1305000.0,
+      "diferencias": [
+        {
+          "item": "Gaseosa cola 2.25L x8",
+          "cantidad_factura": 150,
+          "cantidad_oc": 150,
+          "precio_factura": 9150.0,
+          "precio_oc": 8700.0,
+          "diferencia_importe": 67500.0
+        }
+      ],
+      "confianza": "alta",
+      "observaciones": "La OC aparece como 'Ref. pedido 0534'; se interpretó como OC-2026-0534.",
+      "borrador_mail": "borradores_mail/2026-08-25_A-0002-00031177.md"
+    },
+    {
+      "comprobante": "A-0002-00031180",
+      "proveedor": "Gaseosas Pampa SA",
+      "cuit": "30-70555444-1",
+      "oc": "OC-2026-0538",
+      "asociacion": "tentativa",
+      "clasificacion": "CON_DIFERENCIAS",
+      "total_factura": 550800.0,
+      "total_oc": 522000.0,
+      "diferencias": [
+        {
+          "item": "Agua saborizada 1.5L x6",
+          "cantidad_factura": 90,
+          "cantidad_oc": 90,
+          "precio_factura": 6120.0,
+          "precio_oc": 5800.0,
+          "diferencia_importe": 28800.0
+        }
+      ],
+      "confianza": "media",
+      "observaciones": "La factura no referencia OC. Asociada por CUIT + fecha (±15 días) a OC-2026-0538, único pedido abierto del proveedor con ese ítem. Confirmar.",
+      "borrador_mail": "borradores_mail/2026-08-25_A-0002-00031180.md"
+    },
+    {
+      "comprobante": "B-0001-00002219",
+      "proveedor": "Transporte Litoral",
+      "cuit": null,
+      "oc": null,
+      "asociacion": null,
+      "clasificacion": "SIN_OC",
+      "total_factura": 184500.0,
+      "total_oc": null,
+      "diferencias": [],
+      "confianza": "alta",
+      "observaciones": "Flete semanal, sin OC.",
+      "borrador_mail": null
+    },
+    {
+      "comprobante": "(8 conciliadas — ver salida completa)",
+      "clasificacion": "CONCILIADA"
+    }
+  ]
+}

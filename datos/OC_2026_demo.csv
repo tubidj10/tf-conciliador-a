@@ -1,0 +1,8 @@
+nro_oc,proveedor,cuit,fecha,item,cantidad,precio_unitario,alicuota_iva,estado
+OC-2026-0511,Bebidas del Sur SRL,30-71234567-8,2026-08-11,Agua mineral 1.5L x6,100,4890.00,21,ABIERTA
+OC-2026-0512,Bebidas del Sur SRL,30-71234567-8,2026-08-11,Agua mineral 500ml x12,80,5210.00,21,ABIERTA
+OC-2026-0519,Cervecería Río Claro SA,30-70987654-3,2026-08-12,Cerveza rubia 1L x12,60,21450.00,21,ABIERTA
+OC-2026-0534,Gaseosas Pampa SA,30-70555444-1,2026-08-19,Gaseosa cola 2.25L x8,150,8700.00,21,ABIERTA
+OC-2026-0538,Gaseosas Pampa SA,30-70555444-1,2026-08-20,Agua saborizada 1.5L x6,90,5800.00,21,ABIERTA
+OC-2026-0540,Jugos del Valle SRL,30-71122334-5,2026-08-20,Jugo naranja 1L x12,40,14200.00,21,ANULADA
+OC-2026-0541,Jugos del Valle SRL,30-71122334-5,2026-08-21,Jugo naranja 1L x12,40,14200.00,21,ABIERTA

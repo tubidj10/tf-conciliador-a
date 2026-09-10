@@ -1,0 +1,9 @@
+[texto extraído del PDF — anonimizado]
+GASEOSAS PAMPA SA   CUIT 30-70555444-1
+FACTURA A  0002-00031177        Fecha: 21/08/2026
+Ref. pedido 0534
+Ítem                          Cant.   P. unit.     Subtotal
+Gaseosa cola 2.25L x8           150    9.150,00 1.372.500,00
+Neto gravado                                    1.372.500,00
+IVA 21%                                           288.225,00
+TOTAL                                           1.660.725,00

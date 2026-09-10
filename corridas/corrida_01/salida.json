@@ -1,0 +1,80 @@
+{
+  "corrida": "2026-08-18",
+  "facturas_procesadas": 9,
+  "resultado": {
+    "CONCILIADA": 7,
+    "CON_DIFERENCIAS": 1,
+    "SIN_OC": 1
+  },
+  "detalle": [
+    {
+      "comprobante": "A-0003-00018842",
+      "proveedor": "Bebidas del Sur SRL",
+      "cuit": "30-71234567-8",
+      "oc": "OC-2026-0511",
+      "asociacion": "por_numero",
+      "clasificacion": "CON_DIFERENCIAS",
+      "total_factura": 586800.0,
+      "total_oc": 489000.0,
+      "diferencias": [
+        {
+          "item": "Agua mineral 1.5L x6",
+          "cantidad_factura": 120,
+          "cantidad_oc": 100,
+          "precio_factura": 4890.0,
+          "precio_oc": 4890.0,
+          "diferencia_importe": 97800.0
+        }
+      ],
+      "confianza": "alta",
+      "observaciones": null,
+      "borrador_mail": "borradores_mail/2026-08-18_A-0003-00018842.md"
+    },
+    {
+      "comprobante": "B-0001-00002210",
+      "proveedor": "Transporte Litoral",
+      "cuit": null,
+      "oc": null,
+      "asociacion": null,
+      "clasificacion": "SIN_OC",
+      "total_factura": 184500.0,
+      "total_oc": null,
+      "diferencias": [],
+      "confianza": "alta",
+      "observaciones": "La factura no referencia OC. Es un flete; los fletes no llevan OC en la planilla.",
+      "borrador_mail": null
+    },
+    {
+      "comprobante": "A-0003-00018851",
+      "proveedor": "Bebidas del Sur SRL",
+      "cuit": "30-71234567-8",
+      "oc": "OC-2026-0512",
+      "asociacion": "por_numero",
+      "clasificacion": "CONCILIADA",
+      "total_factura": 416800.0,
+      "total_oc": 416800.0,
+      "diferencias": [],
+      "confianza": "alta",
+      "observaciones": null,
+      "borrador_mail": null
+    },
+    {
+      "comprobante": "A-0001-00007713",
+      "proveedor": "Cervecería Río Claro SA",
+      "cuit": "30-70987654-3",
+      "oc": "OC-2026-0519",
+      "asociacion": "por_numero",
+      "clasificacion": "CONCILIADA",
+      "total_factura": 1287000.0,
+      "total_oc": 1287000.0,
+      "diferencias": [],
+      "confianza": "alta",
+      "observaciones": null,
+      "borrador_mail": null
+    },
+    {
+      "comprobante": "(5 conciliadas más — ver salida completa en la carpeta salidas/ de la demo)",
+      "clasificacion": "CONCILIADA"
+    }
+  ]
+}

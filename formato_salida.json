@@ -1,0 +1,34 @@
+{
+  "corrida": "YYYY-MM-DD",
+  "facturas_procesadas": 0,
+  "resultado": {
+    "CONCILIADA": 0,
+    "CON_DIFERENCIAS": 0,
+    "SIN_OC": 0
+  },
+  "detalle": [
+    {
+      "comprobante": "string",
+      "proveedor": "string",
+      "cuit": "string|null",
+      "oc": "string|null",
+      "asociacion": "por_numero|tentativa|null",
+      "clasificacion": "CONCILIADA|CON_DIFERENCIAS|SIN_OC",
+      "total_factura": 0.0,
+      "total_oc": "number|null",
+      "diferencias": [
+        {
+          "item": "string",
+          "cantidad_factura": 0,
+          "cantidad_oc": 0,
+          "precio_factura": 0.0,
+          "precio_oc": 0.0,
+          "diferencia_importe": 0.0
+        }
+      ],
+      "confianza": "alta|media|baja",
+      "observaciones": "string|null",
+      "borrador_mail": "ruta|null"
+    }
+  ]
+}

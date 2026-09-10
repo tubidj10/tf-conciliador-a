@@ -1,0 +1,66 @@
+{
+  "corrida": "2026-09-01",
+  "facturas_procesadas": 10,
+  "resultado": {
+    "CONCILIADA": 7,
+    "CON_DIFERENCIAS": 1,
+    "SIN_OC": 2
+  },
+  "detalle": [
+    {
+      "comprobante": "NC-A-0003-00000917",
+      "proveedor": "Bebidas del Sur SRL",
+      "cuit": "30-71234567-8",
+      "oc": null,
+      "asociacion": null,
+      "clasificacion": "SIN_OC",
+      "total_factura": -97800.0,
+      "total_oc": null,
+      "diferencias": [],
+      "confianza": "alta",
+      "observaciones": "El comprobante no referencia ninguna OC y tiene importe negativo. No se encontró OC por CUIT + fecha. Sugerencia: reclamar al proveedor la emisión de la OC correspondiente.",
+      "borrador_mail": "borradores_mail/2026-09-01_NC-A-0003-00000917.md"
+    },
+    {
+      "comprobante": "B-0001-00002226",
+      "proveedor": "Transporte Litoral",
+      "cuit": null,
+      "oc": null,
+      "asociacion": null,
+      "clasificacion": "SIN_OC",
+      "total_factura": 184500.0,
+      "total_oc": null,
+      "diferencias": [],
+      "confianza": "alta",
+      "observaciones": "Flete semanal, sin OC.",
+      "borrador_mail": null
+    },
+    {
+      "comprobante": "A-0001-00000941",
+      "proveedor": "Jugos del Valle SRL",
+      "cuit": "30-71122334-5",
+      "oc": "OC-2026-0541",
+      "asociacion": "por_numero",
+      "clasificacion": "CON_DIFERENCIAS",
+      "total_factura": 596400.0,
+      "total_oc": 568000.0,
+      "diferencias": [
+        {
+          "item": "Jugo naranja 1L x12",
+          "cantidad_factura": 42,
+          "cantidad_oc": 40,
+          "precio_factura": 14200.0,
+          "precio_oc": 14200.0,
+          "diferencia_importe": 28400.0
+        }
+      ],
+      "confianza": "alta",
+      "observaciones": null,
+      "borrador_mail": "borradores_mail/2026-09-01_A-0001-00000941.md"
+    },
+    {
+      "comprobante": "(7 conciliadas — ver salida completa)",
+      "clasificacion": "CONCILIADA"
+    }
+  ]
+}

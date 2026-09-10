@@ -1,0 +1,9 @@
+[texto extraído del PDF — anonimizado]
+BEBIDAS DEL SUR SRL   CUIT 30-71234567-8
+FACTURA A  0003-00018842        Fecha: 14/08/2026
+Cliente: [distribuidora]        Ref.: OC-2026-0511
+Ítem                          Cant.   P. unit.     Subtotal
+Agua mineral 1.5L x6            120    4.890,00   586.800,00
+Neto gravado                                      586.800,00
+IVA 21%                                           123.228,00
+TOTAL                                             710.028,00
